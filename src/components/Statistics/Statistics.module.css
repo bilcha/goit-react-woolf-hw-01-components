@@ -1,0 +1,23 @@
+.statisticsCard {
+  max-width: 500px;
+  margin: 50px auto;
+  text-align: center;
+  padding: 20px 0;
+  box-shadow: 1px 1px 5px 1px grey;
+  border-radius: 6px;
+}
+
+.statisticsList {
+  display: flex;
+  list-style: none;
+  padding: 0 20px;
+  justify-content: space-between;
+}
+
+.statisticListItem {
+  width: 100%;
+}
+
+.percentage {
+  font-weight: 700;
+}

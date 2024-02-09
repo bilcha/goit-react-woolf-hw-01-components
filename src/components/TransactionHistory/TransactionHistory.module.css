@@ -1,0 +1,23 @@
+.table {
+  border-radius: 5px;
+  width: 500px;
+  margin: auto;
+  padding: 10px;
+  box-shadow: 1px 1px 5px 1px grey;
+}
+
+.tableHeader {
+  text-align: center;
+  background-color: #98ffdc;
+}
+
+.tableCell {
+  padding: 5px;
+}
+
+.table,
+.tableHeader,
+.tableCell {
+  border: 1px solid #c4c4c4;
+  border-collapse: collapse;
+}
