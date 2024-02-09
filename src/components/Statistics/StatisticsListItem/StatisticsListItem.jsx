@@ -1,4 +1,4 @@
-import styles from "./Statistics.module.css"
+import styles from "./StatisticsListItem.module.css"
 
 function  generateColor () {
     return '#' +  Math.random().toString(16).substr(-6);

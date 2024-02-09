@@ -1,4 +1,4 @@
-import { StatisticsListItem } from "./StatisticsListItem"
+import { StatisticsListItem } from "./StatisticsListItem/StatisticsListItem"
 
 import styles from "./Statistics.module.css"
 
