@@ -1,0 +1,3 @@
+.tableCell {
+  composes: tableCell from '../TransactionHistory.module.css';
+}

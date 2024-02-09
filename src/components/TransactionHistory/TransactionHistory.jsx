@@ -1,4 +1,4 @@
-import { TransactionHistoryData } from "./TransactionHistoryData"
+import { TransactionHistoryData } from "./TransactionHistoryData/TransactionHistoryData"
 import styles from "./TransactionHistory.module.css"
 
 export const TransactionHistory = ({transactions})=> {
