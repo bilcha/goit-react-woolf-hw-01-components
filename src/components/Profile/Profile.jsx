@@ -4,12 +4,7 @@ export const Profile = ({ username, tag, location, avatar, stats }) => {
   return (
     <div className={styles.profile}>
       <div className={styles.description}>
-        <img
-          src={avatar}
-          alt="User avatar"
-          className={styles.avatar}
-          
-        />
+        <img src={avatar} alt="User avatar" className={styles.avatar} />
         <h2 className="name">{username}</h2>
         <p className={styles.greyText}>{tag}</p>
         <p className={styles.greyText}>{location}</p>
@@ -29,6 +24,6 @@ export const Profile = ({ username, tag, location, avatar, stats }) => {
           <p className="quantity">{stats.likes}</p>
         </li>
       </ul>
-  </div>
-  )
-}
+    </div>
+  );
+};

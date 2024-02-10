@@ -1,4 +1,4 @@
-import styles from "./TransactionHistoryData.module.css"
+import styles from './TransactionHistoryData.module.css';
 
 export const TransactionHistoryData = ({ type, amount, currency }) => {
   return (
@@ -7,5 +7,5 @@ export const TransactionHistoryData = ({ type, amount, currency }) => {
       <td className={styles.tableCell}>{amount}</td>
       <td className={styles.tableCell}>{currency}</td>
     </tr>
-  )
-}
+  );
+};
